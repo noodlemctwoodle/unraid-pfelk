@@ -21,7 +21,7 @@ Login to your MaxMind Account; navigate to "My License Key" under "Services" and
 
 1. Install geoipupdate docker container from the Unraid Community App Store.
 
-    ![geoipupdate-image](../images/maxmind/unraid-geoipupdate-docker.png)
+    ![geoipupdate-image](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/images/maxmind/unraid-geoipupdate-docker.png)
 
     `!! WARNING DO NOT START THE CONTAINER BEFORE CONFIGURING THE STEPS BELOW !!`
 
