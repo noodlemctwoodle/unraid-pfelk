@@ -4,7 +4,7 @@
 
 1. Install geoipupdate docker container from the Unraid Community App Store.
 
-    ![geoipupdate-image](../.attachments/maxmind/unraid-geoipupdate-docker.png)
+    ![geoipupdate-image](../images/maxmind/unraid-geoipupdate-docker.png)
 
     `!! WARNING DO NOT START THE CONTAINER BEFORE CONFIGURING THE STEPS BELOW !!`
 
@@ -26,7 +26,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-geoipupdate-docker-hostpath1](../.attachments/maxmind/unraid-geoipupdate-docker-hostpath1.png)
+    ![unraid-geoipupdate-docker-hostpath1](../images/maxmind/unraid-geoipupdate-docker-hostpath1.png)
 
 6. Enter the `Variable` information below and add your `MaxMind ID` to the `Value` field.
 
@@ -40,7 +40,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-geoipupdate-docker-hostkey1](../.attachments/maxmind/unraid-geoipupdate-docker-hostkey1.png)
+    ![unraid-geoipupdate-docker-hostkey1](../images/maxmind/unraid-geoipupdate-docker-hostkey1.png)
 
 7. **Variable** - Enter the variable information below and add your `MaxMind License Key` to the `Value` field.
 
@@ -54,7 +54,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-geoipupdate-docker-hostkey2](../.attachments/maxmind/unraid-geoipupdate-docker-hostkey2.png)
+    ![unraid-geoipupdate-docker-hostkey2](../images/maxmind/unraid-geoipupdate-docker-hostkey2.png)
 
 8. Enter the `Variable` information exactly as below to configure the databases required for `pfelk` as described [here](https://github.com/3ilson/pfelk/blob/master/install/ubuntu.md#8-configure-maxmind)
 
@@ -68,4 +68,4 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-geoipupdate-docker-hostkey3](../.attachments/maxmind/unraid-geoipupdate-docker-hostkey3.png)
+    ![unraid-geoipupdate-docker-hostkey3](../images/maxmind/unraid-geoipupdate-docker-hostkey3.png)
