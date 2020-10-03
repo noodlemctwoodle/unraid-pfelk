@@ -4,7 +4,7 @@
 
 1. Install `CA User Scripts` from the Community App Store.
 
-   ![unraid-unraid-pfelk-ca-scripts](../images/unraid-pfelk/unraid-unraid-pfelk-ca-scripts.png)
+   ![unraid-unraid-pfelk-ca-scripts](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-ca-scripts.png)
 
 2. Browse to `Settings > User Scripts` and click `ADD NEW SCRIPT`.
 
@@ -29,7 +29,7 @@
 
 7. Find the `increase_virtualmem` script in the list and then click `RUN SCRIPT`.
 
-    ![image](../images/unraid-pfelk/unraid-unraid-pfelk-ca-script-example.png)
+    ![image](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-ca-script-example.png)
 
 ## Prepare the UnRAID-pfELK Container Store
 
@@ -125,7 +125,7 @@
 
 3. Scroll to the bottom of the page and click `ADD CONTAINER`
 
-    ![unraid-pfelk/unraid-unraid-pfelk-add](../images/unraid-pfelk/unraid-unraid-pfelk-add.png)
+    ![unraid-pfelk/unraid-unraid-pfelk-add](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-add.png)
 
 4. Fill out the following Fields:
 
@@ -155,7 +155,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-appdata](../images/unraid-pfelk/unraid-unraid-pfelk-appdata.png)
+    ![unraid-unraid-pfelk-appdata](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-appdata.png)
 
 8. Enter the `Path` exactly as below.
 
@@ -170,7 +170,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-geoipupdate-docker-hostpath1](../images/unraid-pfelk/unraid-unraid-pfelk-maxmind.png)
+    ![unraid-geoipupdate-docker-hostpath1](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-maxmind.png)
 
 9. Enter the `Variable` information below.
 
@@ -184,7 +184,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-var1](../images/unraid-pfelk/unraid-unraid-pfelk-var1.png)
+    ![unraid-unraid-pfelk-var1](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-var1.png)
 
 10. Enter the `Port` information below.
 
@@ -199,7 +199,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-kibana](../images/unraid-pfelk/unraid-unraid-pfelk-port-kibana.png)
+    ![unraid-unraid-pfelk-port-kibana](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-kibana.png)
 
 11. Enter the `Port` information below.
 
@@ -214,7 +214,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-elastic](../images/unraid-pfelk/unraid-unraid-pfelk-port-elastic.png)
+    ![unraid-unraid-pfelk-port-elastic](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-elastic.png)
 
 12. Enter the `Port` information below.
 
@@ -229,7 +229,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-pfelk-beats](../images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-beats.png)
+    ![unraid-unraid-pfelk-port-pfelk-beats](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-beats.png)
 
 13. Enter the `Port` information below.
 
@@ -244,7 +244,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-pfelk-firewall](../images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-firewall.png)
+    ![unraid-unraid-pfelk-port-pfelk-firewall](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-firewall.png)
 
 14. Enter the `Port` information below.
 
@@ -259,7 +259,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-pfelk-suricata](../images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-suricata.png)
+    ![unraid-unraid-pfelk-port-pfelk-suricata](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-suricata.png)
 
 15. Enter the `Port` information below.
 
@@ -274,7 +274,7 @@
     - **Required:** No
     - **Password Mask:** No
 
-    ![unraid-unraid-pfelk-port-pfelk-haproxy](../images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-haproxy.png)
+    ![unraid-unraid-pfelk-port-pfelk-haproxy](https://github.com/noodlemctwoodle/unraid-pfelk/blob/master/.images/unraid-pfelk/unraid-unraid-pfelk-port-pfelk-haproxy.png)
 
 16. Click Apply and bring the container online.
 
