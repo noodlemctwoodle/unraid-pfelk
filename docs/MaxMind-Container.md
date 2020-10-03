@@ -89,6 +89,6 @@ Login to your MaxMind Account; navigate to "My License Key" under "Services" and
 
 ## Checking the container
 
-1. Check 
+1. Check `/mnt/user/appdata/maxmind/database` has the databases in it.
 
-2. Proceed with [Configuring Patterns](https://github.com/3ilson/pfelk/blob/master/install/configuration.md#kibana) on `3ilson` GitHub
+2. Proceed with [Configuring the UnRAID-pfELK](./UnRAID-pfELK.md)
