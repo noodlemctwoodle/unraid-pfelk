@@ -1,6 +1,8 @@
 # UnRAID - pfELK Docker Container
 
-This Docker image is based off of [sebp/elk](https://hub.docker.com/r/sebp/elk/) with the configuration of [pfelk](https://github.com/3ilson/pfelk). This will allow you to run pfELK on your UnRAID server.
+This project is a Frankenstein of open source projects, the config of [pfelk](https://github.com/3ilson/pfelk) and the container of [sebp/elk](https://hub.docker.com/r/sebp/elk/) with a few modifications to pull in the pfELK configuration files. I've not built a public container before so please bare with me.
+
+I am open to suggestions for fixing any bugs. 👍 This will allow you to run pfELK on your UnRAID server.
 
 ## Container Requirements
 
