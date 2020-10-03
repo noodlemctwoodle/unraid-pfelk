@@ -6,7 +6,6 @@
 
 # replace with master-arm64 for ARM64
 ARG IMAGE=18.04-1.0.0
-
 FROM phusion/baseimage:${IMAGE}
 ENV \
  REFRESHED_AT=2020-06-20
