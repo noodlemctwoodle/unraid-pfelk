@@ -36,7 +36,7 @@
 1. Open UnRAID Terminal and run the following line to create a folder for UnRAID-pfELK.
 
     ```BASH
-    mkdir /mnt/user/appdata/unraid-pfelk && cd /mnt/user/appdata/unraid-pfelk && mkdir config.d
+    mkdir /mnt/user/appdata/unraid-pfelk && cd /mnt/user/appdata/unraid-pfelk && mkdir conf.d
     ```
 
 2. Change directory into `conf.d`.
