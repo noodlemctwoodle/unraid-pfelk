@@ -99,6 +99,14 @@
 
 ## Configuring UnRAID-pfELK Container
 
+### Automated Script
+
+```BASH
+/usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='pfELK' --net='bridge' -e TZ="Europe/London" -e HOST_OS="Unraid" -e 'MAX_OPEN_FILES'='65536' -p '5601:5601/tcp' -p '9200:9200/tcp' -p '5044:5044/tcp' -p '5140:5140/udp' -p '5141:5141/tcp' -p '5145:5145/udp' -v '/mnt/user/appdata/unraid-pfelk/logstash/conf.d/':'/etc/logstash/conf.d':'rw' -v '/mnt/user/appdata/maxmind/database':'/usr/share/GeoIP/':'rw' 'noodlemctwoodle/unraid-pfelk'
+```
+
+### Manual Process
+
 1. Browse to Docker in `UnRAID`
 
 2. Toggle `ADVANCED VIEW` in the Docker page of UnRAID
