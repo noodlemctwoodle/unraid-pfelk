@@ -104,14 +104,18 @@
 1. Open UnRAID Terminal and run the following line to create the container.
 
     ```BASH
-    /usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='pfELK' --net='bridge' --privileged=false -e TZ="Europe/London" -e HOST_OS="Unraid" -e 'MAX_OPEN_FILES'='262144' -p '5601:5601/tcp' -p '9200:9200/tcp' -p '5044:5044/tcp' -p '5140:5140/udp' -p '5141:5141/tcp' -p '5145:5145/udp' -v '/mnt/user/appdata/unraid-pfelk/conf.d/':'/etc/logstash/conf.d':'rw' -v '/mnt/user/appdata/maxmind/database':'/usr/share/GeoIP/':'rw' 'noodlemctwoodle/unraid-pfelk'
+    /usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='pfELK' --net='bridge' --privileged=false -e TZ="Europe/London" -e HOST_OS="Unraid" -e 'MAX_OPEN_FILES'='262144' -p '5601:5601/tcp' -p '9200:9200/tcp' -p '5044:5044/tcp' -p '5140:5140/udp' -p '5141:5141/tcp' -p '5145:5145/udp' -v '/mnt/user/appdata/unraid-pfelk/conf.d/':'/etc/logstash/conf.d':'rw' -v '/mnt/user/appdata/maxmind/database/':'/usr/share/GeoIP/':'rw' 'noodlemctwoodle/unraid-pfelk:latest'
     ```
 
 2. Open the `pfELK` container in UnRAID and enable the `Privileged` to on.
 
-3. Start the container and check the `Logs` for any errors
+3. Add `WebUI:` configuration
 
-4. If there are no errors, proceed to step [Checking the container](#Checking-the-container).
+    `http://[IP]:[PORT:5601]/`
+
+4. Start the container and check the `Logs` for any errors
+
+5. If there are no errors, proceed to step [Checking the container](#Checking-the-container).
 
 ### Manual Process
 
@@ -276,6 +280,6 @@
 
 ## Checking the container
 
-1. Browse to Kibana using the IP of your UnRAID server <http://1.2.3.4:5601> and check that Kibana is accessible.
+1. Browse to Kibana using the IP of your UnRAID server <http://1.2.3.4:5601> or clicking the and container and `WebUI` and check that Kibana is accessible.
 
 2. Proceed with [Configuring Patterns](https://github.com/3ilson/pfelk/blob/master/install/configuration.md#kibana) on `3ilson` GitHub and importing the dashboards.
