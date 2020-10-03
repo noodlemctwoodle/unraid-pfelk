@@ -3,6 +3,20 @@
 Create a MaxMind Account @ <https://www.maxmind.com/en/geolite2/signup>
 Login to your MaxMind Account; navigate to "My License Key" under "Services" and Generate new license key.
 
+## Automated Script
+
+1. Open UnRAID Terminal and run the following line to create the container.
+
+   `Replace YOUR_ID_HERE with your MaxMind ID`
+
+   `Replace YOUR_LICENSE_HERE with your MaxMind License`
+
+    ```BASH
+    /usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='geoipupdate' --net='bridge' -e TZ="Europe/London" -e HOST_OS="Unraid" -e 'GEOIPUPDATE_ACCOUNT_ID'='YOUR_ID_HERE' -e 'GEOIPUPDATE_LICENSE_KEY'='YOUR_LICENSE_HERE' -e 'GEOIPUPDATE_EDITION_IDS'='GeoLite2-City GeoLite2-Country GeoLite2-ASN' -v '/mnt/user/appdata/maxmind/database':'/usr/share/GeoIP/':'rw,shared' 'maxmindinc/geoipupdate'
+    ```
+
+### Manual Process
+
 ## Configure MaxMind Container
 
 1. Install geoipupdate docker container from the Unraid Community App Store.
@@ -72,3 +86,9 @@ Login to your MaxMind Account; navigate to "My License Key" under "Services" and
     - **Password Mask:** No
 
     ![unraid-geoipupdate-docker-hostkey3](../images/maxmind/unraid-geoipupdate-docker-hostkey3.png)
+
+## Checking the container
+
+1. Check 
+
+2. Proceed with [Configuring Patterns](https://github.com/3ilson/pfelk/blob/master/install/configuration.md#kibana) on `3ilson` GitHub

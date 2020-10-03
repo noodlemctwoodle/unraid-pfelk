@@ -1,11 +1,8 @@
 # Dockerfile for ELK stack
 # Elasticsearch, Logstash, Kibana OSS 7.9.2
 
-# Build with:
-# docker build -t <repo-user>/elk .
-
 # Run with:
-# docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk <repo-user>/elk
+# /usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='pfELK' --net='bridge' --privileged=false -e TZ="Europe/London" -e HOST_OS="Unraid" -e 'MAX_OPEN_FILES'='65536' -p '5601:5601/tcp' -p '9200:9200/tcp' -p '5044:5044/tcp' -p '5140:5140/udp' -p '5141:5141/tcp' -p '5145:5145/udp' -v '/mnt/user/appdata/unraid-pfelk/conf.d/':'/etc/logstash/conf.d':'rw' -v '/mnt/user/appdata/maxmind/database':'/usr/share/GeoIP/':'rw' 'noodlemctwoodle/unraid-pfelk'
 
 # replace with master-arm64 for ARM64
 ARG IMAGE=18.04-1.0.0
