@@ -9,13 +9,6 @@ This Docker image provides a convenient centralised log server and log managemen
 - [x] [geoipupdate](https://hub.docker.com/r/maxmindinc/geoipupdate/) docker container
 - [x] [unraid-pfelk](https://hub.docker.com/r/noodlemctwoodle/unraid-pfelk)
 
-
-### GeoIPUpdate - Maxmind
-
-
-
-
-
 ### Documentation
 
 See the [ELK Docker image documentation web page](http://elk-docker.readthedocs.io/) for additional instructions on how to use this image.
