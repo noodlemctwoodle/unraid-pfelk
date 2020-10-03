@@ -11,7 +11,7 @@ Login to your MaxMind Account; navigate to "My License Key" under "Services" and
 
     `!! WARNING DO NOT START THE CONTAINER BEFORE CONFIGURING THE STEPS BELOW !!`
 
-2. Toggle Container `ADVANCED VIEW` to on in UnRAID
+2. Toggle `ADVANCED VIEW` in the Docker page of UnRAID
 
 3. Add the following URL to the Icon URL:  `<https://avatars2.githubusercontent.com/u/1181834?s=1181834.png>`
 

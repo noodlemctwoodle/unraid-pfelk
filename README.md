@@ -1,17 +1,16 @@
-# Elasticsearch, Logstash, Kibana (PFELK) Docker image for UnRAID
+# UnRAID - pfELK Docker Container
 
-[![](https://images.microbadger.com/badges/image/sebp/elk.svg)](https://microbadger.com/images/sebp/elk "Get your own image badge on microbadger.com") [![Documentation Status](https://readthedocs.org/projects/elk-docker/badge/?version=latest)](http://elk-docker.readthedocs.io/?badge=latest)
-
-This Docker image provides a convenient centralised log server and log management web interface, by packaging Elasticsearch, Logstash, and Kibana, collectively known as ELK.
+This Docker image is based off of [sebp/elk](https://hub.docker.com/r/sebp/elk/) with the configuration of [pfelk](https://github.com/3ilson/pfelk). This will allow you to run pfELK on your UnRAID server.
 
 ## Requirements
 
-- [x] [geoipupdate](https://hub.docker.com/r/maxmindinc/geoipupdate/) docker container
-- [x] [unraid-pfelk](https://hub.docker.com/r/noodlemctwoodle/unraid-pfelk)
+- [x] [GeoIPUpdate MaxMind Container](docs/MaxMind-Container.md) UnRAID Configuration
+- [x] [unraid-pfelk](docs/UnRAID-pfELK.md) UnRAID Configuration
 
 ### Documentation
 
-See the [ELK Docker image documentation web page](http://elk-docker.readthedocs.io/) for additional instructions on how to use this image.
+- Documentation of the base container that this image is based on can be found on the [ELK Docker image documentation web page](http://elk-docker.readthedocs.io/).
+- Documentation for pfELK can be found on `3ilson` GitHub page [here](https://github.com/3ilson/pfelk).
 
 ### Docker Hub
 
